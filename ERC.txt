@@ -1,2 +1,16 @@
+ERC --config SetWorkingDirectory C:\Users\htb-student\Desktop\
+
+
+Create:
 ERC --pattern c 5000
 
+Find:
+ERC --pattern o 1hF0
+
+ERC --bytearray
+
+ERC --compare 0014F974 C:\Users\htb-student\Desktop\ByteArray_1.bin
+
+ERC --bytearray -bytes 0x00
+
+ERC --compare 0014F974 C:\Users\htb-student\Desktop\ByteArray_2.bin
